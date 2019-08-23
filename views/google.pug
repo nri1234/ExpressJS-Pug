@@ -1,0 +1,20 @@
+doctype html
+html
+head
+    meta(charset='UTF-8')
+    title log in with Google
+    link(rel='stylesheet', href='../google.css', type='text/css')
+body
+    .logo
+        img(
+        src='https://lh5.googleusercontent.com/awwImLhpIrY7LEpavssaMsE6HBZcgHHaNO1iyXEXoiVpcRU3zVrJBZWGVeGfWtUNj6JQW45avHHOsO_4jDod5TakZRXmxx0Fkx1VfofKtdQcCE23jQJGiSGdn3Cp9_3SC9NdB6Ey'
+        alt='google'
+        )
+    form(action='http://localhost:3000/auth/google', method='GET')
+        p
+        | User Name:
+        input(type='text', placeholder='Email or phone')
+        P
+        | Password:
+        input(type='password', placeholder='Password')
+        input(type='submit', value='NEXT')

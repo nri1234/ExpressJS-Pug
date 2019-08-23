@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 10px;
+    text-align: center;
+    height: 5%;
+}
+
+form {
+
+    padding: 25px;
+    max-width: 300px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+
+input[type='text'],
+input[type='password'] {
+    font-size: 1.2em;
+    display: block;
+    background: none;
+    border: 1px solid skyblue;
+    color: black;
+    padding: 15px;
+}
+input:focus{
+    outline: 0;
+    border-color:darkblue;
+}
+
+input[type='submit'] {
+    width: 40%;
+    border: 0;
+    outline: none;
+    border-radius: 2px;
+    padding: 12px 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    background: #66b3ff;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+input[type='submit']:hover {
+    background: darkblue;
+}

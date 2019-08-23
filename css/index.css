@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    margin: 0 auto;
+}
+.logo {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #00A1F1;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a:hover {
+    background: darkblue;
+}
